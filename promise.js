@@ -26,19 +26,6 @@ function conThoDiDao() {
     }, 1000)
     
 }
-// conThoAnCo()
-//     .then(() => {
-//         conThoDiXemPhim()
-//         .then(() => {
-//             conThoDiDao()
-//         })
-//         .catch(error => {
-//             console.log(error)
-//         })
-//     })  
-//     .catch(error => {
-//         console.log(error)
-//     })
 conThoAnCo()
     .then(() => {
        return conThoDiXemPhim()     
